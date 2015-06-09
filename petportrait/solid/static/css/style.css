@@ -205,26 +205,40 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #00b3fe;
-	min-height: 550px;
+	background: url(../img/SplitShire-2750.jpg) no-repeat center top;
+	margin-top: 0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h3 {
+	color: #384452;
+	font-weight: 400;
 	padding-top: 100px;
 	padding-bottom: 0px;
 	text-align: center;
-}
-
-#headerwrap h3, h5 {
-	color: white;
-	font-weight: 400;
+	min-height: 550px;
 }
 
 #headerwrap h1 {
-	color: white;
-	margin-bottom: 25px;
+	color: #384452;
+	margin-bottom: 50px;
+	padding-top: 50px;
 }
 
-#headerwrap .img-responsive {
-	margin: 0 auto;
-}
+
 
 /* Services Wrap */
 #service {
@@ -288,7 +302,7 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrap {
-	background: url(../img/t-back.jpg) no-repeat center top;
+	background: url(../img/lake-animals-dogs-pets.png) no-repeat center top;
 	margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
@@ -310,12 +324,12 @@ a:focus {
 
 #twrap i {
 	font-size: 50px;
-	color: white;
+	color: #00b3fe;
 	margin-bottom: 25px;
 }
 
 #twrap p {
-	color: white;
+	color: #00b3fe;
 	font-size: 15px;
 	line-height: 30px;
 }
